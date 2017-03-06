@@ -2,4 +2,38 @@
 body {
   margin: 0;
   min-height: 100vh;
+
+  #bw-app {
+    .bw-sidebar, .bw-sidebar-mobile {
+      height: 500px;
+      background-color: #999999;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .bw-grid {
+      .bw-grid-product {
+        position: relative;
+        padding: 15px;
+
+        .bw-grid-product-image {
+          width: 100%;
+          height: auto;
+        }
+
+        .bw-grid-product-title {
+          display: block;
+          text-align: center;
+          font-weight: bold;
+          font-size: 20px;
+        }
+
+        .bw-grid-product-price {
+          display: block;
+          text-align: center;
+          font-size: 18px;
+        }
+      }
+    }
+  }
 }
