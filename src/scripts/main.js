@@ -1,4 +1,6 @@
 import 'jquery';
 import 'bootstrap-sass';
 
-console.log('hello world');
+$(window.document).ready(() => {
+  console.log('hello world');
+});
